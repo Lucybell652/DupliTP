@@ -1,17 +1,17 @@
-# DupliTP
+# DupliTP (⁠ ⁠ꈍ⁠ᴗ⁠ꈍ⁠)
 
 **DupliTP** es un programa de Python diseñado para encontrar y organizar archivos duplicados en un directorio específico. 
 Esta aplicación ayuda a liberar espacio en disco eliminando copias innecesarias de archivos y organizando los duplicados 
 en una carpeta separada llamada "duplicados" (Los separa, será tarea tuya eliminar esa carpeta).
 
-## Características
+## Características ✨
 
 - Busca archivos duplicados en un directorio y sus subdirectorios.
 - Organiza los archivos duplicados en una carpeta llamada "duplicados".
 - Utiliza la biblioteca "art" para mostrar un título estilizado.
 - Proporciona manejo de errores para diferentes situaciones.
 
-## Uso
+## Uso 💻
 
 1. Ejecute el programa utilizando Python.
 
@@ -29,23 +29,18 @@ python duplitp.py
 
 6. Presione Enter para salir del programa.
 
-## Requisitos
+## Requisitos 📜
 
 - Python 3.x
 - La biblioteca "art" (puede instalarse con `pip install art`)
 
-## Limitaciones
+## Limitaciones 😓
 
 - No es capaz de detectar duplicados con nombres diferentes.
 - No maneja la comparación de archivos binarios, por lo que dos archivos con el mismo nombre pero diferentes contenidos
   no se considerarán duplicados.
 
-## Créditos
-
-Este programa utiliza la biblioteca "art" para crear texto estilizado en la consola y se basa en funciones ubicadas en el 
-módulo "funciones" para encontrar y organizar archivos duplicados.
-
-## Notas
+## Notas ‼️
 
 - Asegúrese de que la ruta del directorio ingresada sea válida y tenga permisos de lectura.
 - Los archivos duplicados se mueven a la carpeta "duplicados" dentro del directorio especificado, por lo que asegúrese de
